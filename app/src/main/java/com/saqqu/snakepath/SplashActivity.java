@@ -24,7 +24,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(SplashActivity.this, SnakeGameActivity.class);
+                Intent intent = new Intent(SplashActivity.this, GameStartActivity.class);
                 startActivity(intent);
                 finish();
 
